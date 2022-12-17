@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BaiTap4.AboutActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:background="@drawable/background_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ImageView>
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+        android:text="Know Your Goverment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:fontFamily="@font/font"
+        android:text="© 2017, Christopher Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:fontFamily="@font/font"
+        android:text="Version 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+</FrameLayout>

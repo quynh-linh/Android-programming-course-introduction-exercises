@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_main"
+    android:orientation="vertical"
+    tools:context=".BaiTap3.DetailProteinsActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/petfood" />
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="222dp"
+            android:layout_height="87dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="It IS possible to produce balanced vegetarian/vegan dog diets"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textViewDes"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="82dp"
+        android:layout_marginTop="12dp"
+        android:text="There is sufficient information and enough ingredient options available to produce vegetarian and vegan diets for dogs in a safe and nutritionally balanced manner."
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageViewMediaImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDes"
+            app:srcCompat="@drawable/petfood" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewMediaTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:text="Dog-with-carrot.jpg"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textViewMediaDes"
+                android:layout_width="156dp"
+                android:layout_height="86dp"
+                android:fontFamily="@font/font"
+                android:text="Dog with bunch of carrots in mouth. Cute black and white border collie with vegetable"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/buttonMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/buttonClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+    </LinearLayout>
+</LinearLayout>

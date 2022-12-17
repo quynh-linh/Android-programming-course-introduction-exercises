@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Linear Layout" android:id="@+id/linearLayout"></item>
+    <item android:title="Table Layout" android:id="@+id/tableLayoutableLayout"></item>
+    <item android:title="Relative Layout" android:id="@+id/relativeLayout"></item>
+</menu>

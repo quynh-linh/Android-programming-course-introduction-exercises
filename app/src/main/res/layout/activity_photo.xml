@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaiTap4.PhotoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@color/purple_200"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_nameBangPhoto"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/font"
+            android:text="Los Angeles, CA"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></TextView>
+        <TextView
+            android:id="@+id/tv_maZipBangPhoto"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/font"
+            android:text=" 90001"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bg_photo"
+        android:background="@color/teal_200"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_office"
+            android:textSize="20sp"
+            android:fontFamily="@font/font"
+            android:text="United States Senate"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_nameOfficial"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/font"
+            android:text="Tammy Duckworth"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></TextView>
+        <ImageView
+            android:id="@+id/imageviewPhotoUrl"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_text"
+            android:layout_width="400dp"
+            android:layout_height="400dp"></ImageView>
+    </LinearLayout>
+</LinearLayout>
